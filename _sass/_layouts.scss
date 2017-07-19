@@ -101,6 +101,8 @@ footer {
   nav {
     ul {
       font-family: $openSans;
+      padding: 0 5px 50px 25px;
+
       li {
         height: 50px;
         border-bottom: 1px $navSeparator solid;
