@@ -116,6 +116,15 @@ footer {
         line-height: 19px;
       }
     }
+
+    .search {
+      input {
+        font-family: $openSans;
+        font-size: 12px;
+        line-height: 17px;
+        color: $footerBackground;
+      }
+    }
   }
   .copyright-2017-asp {
     height: 11px;
