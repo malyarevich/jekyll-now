@@ -1,5 +1,5 @@
 jQuery( document ).ready(function () {
-    jQuery(".menu-box>button").click(function () {
+    jQuery(".menu-box button").click(function () {
         jQuery(".menu-box__open").toggle();
         jQuery(".menu-box__hamb").toggle();
         if ( jQuery(".menu-box__hamb").is(":visible") ) {
