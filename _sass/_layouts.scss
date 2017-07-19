@@ -8,11 +8,14 @@
   width: 375px;
   background-color: $baseBackground;
   box-shadow: inset 0 -1px 0 0 $baseShadow;
+  display: flex;
+  justify-content: space-between;
 
   .aspidpro-logo-alt {
     height: 36px;
     width: 166px;
     display: flex;
+    justify-content: space-between;
 
     .aspidpro-logo-mark {
       height: 23.29px;
