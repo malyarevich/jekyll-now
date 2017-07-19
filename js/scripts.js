@@ -1,6 +1,4 @@
 jQuery( document ).ready(function () {
-    jQuery(".menu-box__open").hide();
-    jQuery(".menu-box__hamb").open();
     jQuery(".menu-box button").click(function () {
         jQuery(".menu-box__open").toggle();
         jQuery(".menu-box__hamb").toggle();
