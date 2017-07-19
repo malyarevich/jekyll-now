@@ -46,7 +46,7 @@
   text-align: center;
   text-transform: capitalize;
   width: 100%;
-  min-height: calc(100% - 66px);
+  height: calc(100% - 66px);
 
   .aspid-menu__list {
     @extend .navbar-nav;
