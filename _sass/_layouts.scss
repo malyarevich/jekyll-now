@@ -71,6 +71,21 @@
   }
 }
 
+.menu-box {
+  background-color: $baseBackground;
+  height: 66px;
+  width: 158px;
+
+  .menu-box__open {
+    display: block;
+    text-transform: uppercase;
+  }
+  .menu-box__hamb {
+    @extend .navbar-toggler-icon;
+    display: none;
+  }
+}
+
 /* Header */
 .header {
   min-height: 66px;

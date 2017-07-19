@@ -1,8 +1,12 @@
 <nav class="navbar navbar-toggleable-sm bg-faded navbar-light">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu">
-        <span class="menu" style="display: none;"> Menu</span>
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="menu-box">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu">
+
+
+            <span class="menu-box__open" style="display: none;"> Menu <i class="fa fa-times" aria-hidden="true"></i></span>
+            <span class="menu-box__hamb"></span>
+        </button>
+    </div>
     <a href="{{ site.baseurl }}/" class="logo noline navbar-brand">
         <div class="aspidpro-logo-alt">
             <div class="aspidpro-logo-mark">
