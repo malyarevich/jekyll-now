@@ -88,7 +88,6 @@
     text-transform: uppercase;
   }
   &__hamb {
-    @extend .navbar-toggler-icon;
     display: none;
   }
 }
