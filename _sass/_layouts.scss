@@ -91,6 +91,10 @@
     display: flex;
     margin: 12px;
     right: 0;
+
+    &:focus {
+      border: none;
+    }
   }
   &__open {
     color: $baseBackground;
