@@ -9,6 +9,12 @@
 .btn-srch {
   border: 1px $white solid;
   border-radius: 0;
+  font-size: 2em;
+  background-color: $gray;
+
+  .fa {
+    color: $white;
+  }
 }
 
 /* Header */
