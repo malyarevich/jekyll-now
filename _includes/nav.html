@@ -38,19 +38,9 @@
         </ul>
         <nav class="iconnav">
             <ul>
-                {% if site.twitter %}
-                <li class="social">
-                    <a href="{{ site.twitter }}" class="twitter"><i class="fa fa-twitter"></i></a>
-                </li>
-                {% endif %} {% if site.facebook %}
-                <li class="social">
-                    <a href="{{ site.facebook }}" class="facebook"><i class="fa fa-facebook"></i></a>
-                </li>
-                {% endif %} {% if site.youtube %}
-                <li class="social">
-                    <a href="{{ site.youtube }}" class="youtube"><i class="fa fa-youtube"></i></a>
-                </li>
-                {% endif %}
+
+                {% include svg-icons.html %}
+
             </ul>
         </nav>
     </div>
