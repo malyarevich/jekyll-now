@@ -4,8 +4,38 @@
 
 .iconnav {
   margin: 0 auto;
-}
+  justify-content: center;
+  display: flex;
+  .iconnav__ul {
+    padding: 0;
+    justify-content: center;
+    display: inline-flex;
 
+    iconnav__soc-item {
+      height: 28px;
+      width: 28px;
+      margin: 0 15px;
+      list-style: none;
+      display: flex;
+
+      a {
+        color: $footerText;
+
+        &:hover {
+          color: lighten($footerText, 20%);
+        }
+        &:active {
+          color: darken($footerText, 20%);
+        }
+        i.fa {
+          font-size: 20px;
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+  }
+}
 
 /* Header */
 .header {
@@ -162,39 +192,7 @@ footer {
       }
     }
 
-    .iconnav {
-      justify-content: center;
-      display: flex;
-      ul {
-        padding: 0;
-        justify-content: center;
-        display: inline-flex;
 
-        li.soc-item {
-          height: 28px;
-          width: 28px;
-          margin: 0 15px;
-          list-style: none;
-          display: flex;
-
-          a {
-            color: $footerText;
-
-            &:hover {
-              color: lighten($footerText, 20%);
-            }
-            &:active {
-              color: darken($footerText, 20%);
-            }
-            i.fa {
-              font-size: 20px;
-              height: 20px;
-              width: 20px;
-            }
-          }
-        }
-      }
-    }
   }
   .copyright-2017-asp {
     margin: 0 auto;
