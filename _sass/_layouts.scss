@@ -95,11 +95,11 @@
     color: $baseBackground;
     display: flex;
     justify-content:space-around;
-    text-transform: uppercase;
-    padding: .5em;
 
     &:nth-child(1) {
       display: flex;
+      padding: .5em;
+      text-transform: uppercase;
     }
   }
   &__hamb {
