@@ -103,6 +103,13 @@ footer {
 
         a {
           color: $footerText;
+
+          &:hover {
+            color: lighten($footerText, 20%);
+          }
+          &:active {
+            color: darken($footerText, 20%);
+          }
         }
       }
     }
