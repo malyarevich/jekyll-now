@@ -45,6 +45,7 @@
   line-height: 22px;
   text-align: center;
   width: 100%;
+  min-height: calc(100% - 66px);
 
   .aspid-menu__list {
     width: 87.5%;
