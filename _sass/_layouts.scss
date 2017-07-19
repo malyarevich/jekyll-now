@@ -28,12 +28,13 @@
     .apsidpro-logo-text {
       height: 34.79px;
       width: 127.19px;
-      font-family: $roboto;
+      font-family: $openSans;
       color: $gray;
       display: flex;
+      font-weight: 300;
 
       .accent-semibold {
-        font-weight: 600;
+        font-weight: 500;
       }
     }
   }
