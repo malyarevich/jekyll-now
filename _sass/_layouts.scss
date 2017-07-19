@@ -77,18 +77,18 @@
   font-family: $openSans;
   font-size: 20px;
   font-weight: 600;
+  justify-content: space-around;
   height: 66px;
   line-height: 27px;
+  position: fixed;
+  right: 0;
+  top: 0;
   width: 158px;
-  justify-content: space-around;
 
   &__open {
     color: $baseBackground;
     display: flex;
-    position: fixed;
-    right: 0;
     text-transform: uppercase;
-    top: 0;
   }
   &__hamb {
     display: none;
