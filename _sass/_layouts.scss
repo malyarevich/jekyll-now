@@ -63,6 +63,8 @@
   }
   .aspid-menu__item-link {
     color: $menuText;
+    text-transform: capitalize;
+
 
     &:hover {
       color: lighten($menuText, 20%);
