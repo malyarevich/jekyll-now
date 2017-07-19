@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
 
+
   .aspidpro-logo-alt {
     height: 36px;
     width: 166px;
@@ -44,7 +45,9 @@
       }
     }
   }
-
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
   .icon-menu {
     height: 18px;
     width: 20px;
