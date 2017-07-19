@@ -86,11 +86,17 @@
   top: 0;
   width: 158px;
 
+  button {
+    border: none;
+    display: flex;
+    margin: .5em;
+  }
   &__open {
     color: $baseBackground;
     display: flex;
     justify-content:space-around;
     text-transform: uppercase;
+    padding: .5em;
 
     &:nth-child(1) {
       display: flex;
@@ -118,10 +124,6 @@
     padding: 0;
     width: 100%;
 
-    button {
-      border: none;
-      margin: .5em;
-    }
     a.navbar-brand {
       display: flex;
       margin: 0;
