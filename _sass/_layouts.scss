@@ -89,7 +89,7 @@
   button {
     border: none;
     display: flex;
-    margin: 24px;
+    margin: 12px;
     right: 0;
   }
   &__open {
@@ -108,6 +108,7 @@
   }
   &__hamb {
     display: flex;
+    margin: 12px;
   }
 }
 
