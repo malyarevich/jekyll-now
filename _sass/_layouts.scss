@@ -94,6 +94,7 @@
 
     &:focus {
       border: none;
+      border-image-width: 0;
     }
   }
   &__open {
