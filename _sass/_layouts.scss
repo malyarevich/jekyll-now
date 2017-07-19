@@ -115,7 +115,7 @@ footer {
     }
 
     .search {
-      margin-top: 46px;
+      padding-top: 46px;
       height: 38px;
 
       input {
@@ -143,8 +143,20 @@ footer {
         }
       }
     }
+
+    .iconnav {
+      padding-top: 30px;
+
+      fa{
+        height: 20px;
+        width: 20px;
+        padding: 0 15px;
+      }
+    }
   }
   .copyright-2017-asp {
+    padding-top: 36px;
+    padding-bottom: 20px;
     height: 11px;
     width: 269px;
     color: $white;
