@@ -73,8 +73,10 @@
 
 .menu-box {
   background-color: $baseBackground;
+  display: flex;
   height: 66px;
   width: 158px;
+  justify-content: space-around;
 
   .menu-box__open {
     display: block;
