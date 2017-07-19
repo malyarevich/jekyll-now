@@ -100,7 +100,9 @@ footer {
     ul.navbar-nav {
       font-family: $openSans;
       font-weight: normal;
-      padding: 0;
+      padding-left: 10px;
+      padding-right: 0;
+
 
       li {
         height: 50px;
