@@ -16,19 +16,21 @@
     width: 166px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .aspidpro-logo-mark {
-      height: 23.29px;
-      width: 25.08px;
+      height: 28px;
+      width: 28px;
       display: flex;
       background-image: url("./images/logo.svg");
-      background-size: contain;
+      background-size: cover;
     }
 
     .apsidpro-logo-text {
       height: 34.79px;
       width: 127.19px;
       font-family: $openSans;
+      font-size: 1.8em;
       color: $gray;
       display: flex;
       font-weight: 300;
