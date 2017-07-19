@@ -94,7 +94,7 @@
   }
   &__open {
     color: $baseBackground;
-    display: flex;
+    display: none;
     justify-content:space-around;
 
     &:nth-child(1) {
@@ -107,7 +107,7 @@
     }
   }
   &__hamb {
-    display: none;
+    display: flex;
   }
 }
 
