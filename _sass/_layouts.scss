@@ -115,12 +115,14 @@ footer {
     }
 
     .search {
+      height: 38px;
 
       input {
         font-family: $openSans;
         font-size: 12px;
         line-height: 17px;
         color: $footerBackground;
+
         box-sizing: border-box;
       }
       .btn-srch {
