@@ -40,7 +40,9 @@
 .aspid-menu {
   background: linear-gradient(180deg, #5086B9 0%, #416D96 100%);
   font-family: $openSans;
+  font-size: 14px;
   font-weight: 300;
+  line-height: 22px;
   text-align: center;
   width: 100%;
 
@@ -51,7 +53,7 @@
     @extend .navbar-nav;
   }
   .aspid-menu__item {
-    border-bottom: 1px #4d75a1 solid;
+    border-bottom: 1px #4c749f solid;
     height: 48px;
     list-style: none;
   }
