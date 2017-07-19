@@ -171,16 +171,11 @@ footer {
             &:active {
               color: darken($footerText, 20%);
             }
-            i {
+            i.fa {
+              font-size: 1.8rem;
               height: 20px;
               width: 20px;
             }
-          }
-
-          fa{
-            font-size: 1.8rem;
-            height: 20px;
-            width: 20px;
           }
         }
       }
