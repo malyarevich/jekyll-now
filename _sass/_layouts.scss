@@ -44,7 +44,7 @@
   font-weight: 300;
   line-height: 22px;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   width: 100%;
   height: calc(100vh - 66px);
 
@@ -63,8 +63,6 @@
   }
   .aspid-menu__item-link {
     color: $menuText;
-    text-transform: capitalize;
-
 
     &:hover {
       color: lighten($menuText, 20%);
