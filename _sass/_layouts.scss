@@ -6,21 +6,6 @@
   margin: 0 auto;
 }
 
-.btn-srch {
-  border: 1px $white solid;
-  border-radius: 0;
-  font-size: 2rem;
-  background-color: $footerBackground;
-  padding: 0 .8rem;
-
-  .fa {
-    padding: 0;
-    color: $white;
-  }
-  .fa-angle-right {
-    padding: 0;
-  }
-}
 
 /* Header */
 .header {
@@ -124,6 +109,22 @@ footer {
         font-size: 12px;
         line-height: 17px;
         color: $footerBackground;
+      }
+      .btn-srch {
+        border: 1px $white solid;
+        border-radius: 0;
+        font-size: 2rem;
+        background-color: $footerBackground;
+        padding: 0 .8rem;
+        box-sizing: border-box;
+
+        .fa {
+          padding: 0;
+          color: $white;
+        }
+        .fa-angle-right {
+          padding: 0;
+        }
       }
     }
   }
