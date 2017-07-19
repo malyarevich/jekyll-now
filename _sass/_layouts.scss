@@ -78,11 +78,12 @@
   width: 158px;
   justify-content: space-around;
 
-  .menu-box__open {
+  &__open {
+    color: $baseBackground;
     display: block;
     text-transform: uppercase;
   }
-  .menu-box__hamb {
+  &__hamb {
     @extend .navbar-toggler-icon;
     display: none;
   }
