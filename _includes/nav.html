@@ -1,3 +1,52 @@
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/">Productos y Líneas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/archive">Tips y Consejos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">¿Quiénes Somos?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">Distribuidores Autorizados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">Talleres y Diplomados</a>
+            </li>
+        </ul>
+        <nav class="iconnav">
+            <ul>
+                {% if site.twitter %}
+                <li class="social">
+                    <a href="{{ site.twitter }}" class="twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                {% endif %} {% if site.facebook %}
+                <li class="social">
+                    <a href="{{ site.facebook }}" class="facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                {% endif %} {% if site.youtube %}
+                <li class="social">
+                    <a href="{{ site.youtube }}" class="youtube"><i class="fa fa-youtube"></i></a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</nav>
 <!-- menu, we did go with a static one, you can build a dynamic one, just google a little around -->
 <div class="main-menu">
     <div class="content">
