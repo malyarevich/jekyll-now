@@ -63,6 +63,9 @@
 /* Footer */
 footer {
   background-color: $footerBackground;
+  display: flex;
+  align-self: flex-end;
+
   .copyright-2017-asp {
     height: 11px;
     width: 269px;
