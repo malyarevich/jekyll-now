@@ -39,6 +39,9 @@
 
 .aspid-menu {
   background: linear-gradient(180deg, #5086B9 0%, #416D96 100%);
+  font-family: $openSans;
+  font-weight: 300;
+  text-align: center;
   width: 100%;
 
   .aspid-menu__list {
