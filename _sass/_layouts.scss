@@ -126,6 +126,7 @@ footer {
 
     .search {
       height: 38px;
+      padding-bottom: 30px;
 
       input {
         font-family: $openSans;
@@ -154,7 +155,6 @@ footer {
     }
 
     .iconnav {
-      padding-top: 30px;
       ul {
         justify-content: center;
         li.soc-item {
