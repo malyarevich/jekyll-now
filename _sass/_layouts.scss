@@ -18,6 +18,9 @@
     min-height: 66px;
     margin: 0;
 
+    .navbar-collapse {
+      background: linear-gradient(180deg, #5086B9 0%, #416D96 100%);
+    }
     .menu {
       width: 158px;
     }
