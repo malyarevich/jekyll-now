@@ -61,14 +61,17 @@
 }
 
 /* Footer */
-.copyright-2017-asp {
-  height: 11px;
-  width: 269px;
-  color: $white;
-  font-family: $openSans;
-  font-size: 8px;
-  line-height: 11px;
-  text-align: center;
+footer {
+  background-color: $footerBackground;
+  .copyright-2017-asp {
+    height: 11px;
+    width: 269px;
+    color: $white;
+    font-family: $openSans;
+    font-size: 8px;
+    line-height: 11px;
+    text-align: center;
+  }
 }
 
 //
