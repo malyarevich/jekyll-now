@@ -158,12 +158,14 @@ footer {
       ul {
         padding: 0;
         justify-content: center;
+        display: inline-flex;
+
         li.soc-item {
           height: 28px;
           width: 28px;
           margin: 0 15px;
           list-style: none;
-          display: inline-flex;
+          display: flex;
 
           a {
             color: $footerText;
