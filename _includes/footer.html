@@ -1,0 +1,42 @@
+<footer>
+    <nav>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">¿Quiénes Somos?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">Distribuidores Autorizados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">Talleres y Diplomados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}/typography">Contáctanos</a>
+            </li>
+        </ul>
+        <div class="form-group row">
+            <label for="example-search-input" class="col-2 col-form-label">Search</label>
+            <div class="col-10">
+                <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+            </div>
+        </div>
+        <nav class="iconnav">
+            <ul>
+                {% if site.twitter %}
+                <li class="social">
+                    <a href="{{ site.twitter }}" class="twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                {% endif %} {% if site.facebook %}
+                <li class="social">
+                    <a href="{{ site.facebook }}" class="facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                {% endif %} {% if site.youtube %}
+                <li class="social">
+                    <a href="{{ site.youtube }}" class="youtube"><i class="fa fa-youtube"></i></a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        <div class="copyright-2017-asp ">Copyright © 2017 ASPIDPRO S.A. de C.V. Todos los derechos reservados.</div>
+    </nav>
+</footer>
