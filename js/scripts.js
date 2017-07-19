@@ -5,7 +5,7 @@ jQuery( document ).ready(function () {
             jQuery(".menu-box__open").hide();
             jQuery(".menu-box__hamb").show();
         } else {
-            jQuery(".menu-box").css("background-color", "none");
+            jQuery(".menu-box").css("background-color", "rgba(80, 134, 185, 0)");
             jQuery(".menu-box__open").show();
             jQuery(".menu-box__hamb").hide();
         }
