@@ -13,9 +13,12 @@
   background-color: $footerBackground;
 
   .fa {
-    padding: 5px;
+    padding: 0;
     font-size: 2em;
     color: $white;
+  }
+  .fa-angle-right {
+    padding: 0;
   }
 }
 
