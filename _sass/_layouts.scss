@@ -99,6 +99,10 @@ footer {
         font-size: 14px;
         border-bottom: 1px $navSeparator solid;
         line-height: 19px;
+
+        a {
+          color: $footerText;
+        }
       }
     }
 
